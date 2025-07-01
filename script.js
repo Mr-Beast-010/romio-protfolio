@@ -83,7 +83,7 @@ function showRandomQuote() {
 // === Start loop on load ===
 window.addEventListener('DOMContentLoaded', () => {
   showRandomQuote();
-  setInterval(showRandomQuote, 7000); // refresh every 5 seconds
+  setInterval(showRandomQuote, 30000); // refresh every 5 seconds
 });
 
 // === Background image sets ===
